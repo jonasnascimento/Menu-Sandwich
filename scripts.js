@@ -47,7 +47,7 @@ function sumAllItems() {
 
     list.innerHTML = `
     <li>
-    <p>A soma de todos os itens do menu é R$ ${formatCurrency(total)} </p>
+    <p>A soma de todos os itens do menu é ${formatCurrency(total)} </p>
     </li >
         `
 
